@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saksham Aggarwal</title>
+    <title>Commit INC.</title>
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
         integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
@@ -39,18 +39,18 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg ">
 
         <a class="navbar-brand" href="./index.html">
-            <img src="/Website/assets/images/logo.png" alt="" width="50" height="50"
+            <img src="assets/images/logo.png" alt="" width="50" height="50"
                 class="d-inline-block align-text-top">
             Commit
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <button class="navbar-toggler second-button collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="hamb">
+        <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+      </button>
+        <div class="collapse navbar-collapse lateral-left" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="./work.html">Work</a>
@@ -58,6 +58,12 @@
             </div>
         </div>
     </nav>
+
+  
+
+
+
+
 
     <section id="hero">
 
@@ -70,9 +76,25 @@
                     and humane designs for your
                     robust online presence
                 </p>
-                <a href="./work.html"><button type="button" class="btn btn-lg btn-dark download-button">Explore
-                        <i class="fas fa-arrow-right"></i></button></a>
-            </div>
+
+
+<div class="explore-button">
+                <a href="./work.html" class="cta" >
+                    <span>Explore</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+        </div>
+        
+        
+        
+                </div>
+
+
+
+
             <div class="col-lg-6 illustration-parent">
                 <!-- <img src="./assets/images/hero.png" alt="iphone-mockup" class="illustration"> -->
             </div>
@@ -80,6 +102,10 @@
 
     </section>
 
+
+
+    <script src="./assets/script.js"></script>
 </body>
+
 
 </html>
